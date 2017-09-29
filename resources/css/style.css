@@ -53,3 +53,15 @@ header img {
   font-size: 2rem;
   font-weight: bold;
 }
+
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: white;
+}
