@@ -66,6 +66,10 @@ nav ul {
   color: white;
 }
 
+.mobileNav {
+  display: none;
+}
+
 #productGrids {
   display: flex;
   justify-content: space-between;
@@ -125,5 +129,20 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-  
+  .productGrid {
+    width: 47%;
+  }
+
+  #thermalGlasses {
+    display: none;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: block;
+    text-align: center;
+  }
 }
