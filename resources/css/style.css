@@ -79,6 +79,7 @@ nav ul {
 }
 
 .productGrid img {
+  max-width: 8em;
   height: 9rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
