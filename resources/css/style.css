@@ -148,5 +148,15 @@ footer {
 }
 
 @media only screen and (max-width: 470px) {
-  
+  #productGrids {
+    justify-content: center;
+  }
+
+  .productGrid {
+    width: 90%;
+  }
+
+  #cellularWatch {
+    display: none;
+  }
 }
