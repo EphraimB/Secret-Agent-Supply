@@ -69,20 +69,27 @@ nav ul {
 #productGrids {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 3rem;
 }
 
 .productGrid {
   width: 30%;
-  border: 4px solid black;
   text-align: center;
+}
+
+.productImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 9rem;
+  border: 4px solid black;
 }
 
 .productGrid img {
   max-width: 8em;
-  height: 9rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .productGrid p {
