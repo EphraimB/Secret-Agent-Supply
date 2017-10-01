@@ -91,3 +91,21 @@ nav ul {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+.businessInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 3em 0 0 0;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  padding: 1em 2em;
+  color: white;
+  background-color: black;
+}
