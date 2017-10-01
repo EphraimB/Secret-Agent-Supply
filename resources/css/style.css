@@ -74,14 +74,12 @@ nav ul {
 
 .productGrid {
   width: 30%;
-  height: auto;
   border: 4px solid black;
   text-align: center;
 }
 
 .productGrid img {
   height: 9rem;
-  width: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
